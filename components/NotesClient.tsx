@@ -134,11 +134,21 @@ export default function NotesClient() {
         }),
       });
 
-      const data = await response.json();
+      const text = await response.text();
 
-      if (!response.ok) {
-        throw new Error(data.error || "Failed to update note");
-      }
+let data: { error?: string } = {};
+
+if (text) {
+  try {
+    data = JSON.parse(text);
+  } catch {
+    throw new Error("Server returned an invalid response");
+  }
+}
+
+if (!response.ok) {
+  throw new Error(data.error || "Failed to update note");
+}
 
       cancelEditing();
       await fetchNotes();
