@@ -34,3 +34,39 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Screenshots
+
+### Home Page
+![StudyHub Home](screenshots/home.png)
+
+### Dashboard
+![StudyHub Dashboard](screenshots/dashboard.png)
+
+### Tasks - Task Creation
+![StudyHub Tasks](screenshots/tasks-1.png)
+
+### Tasks - Pending Tasks
+![StudyHub Pending Tasks](screenshots/tasks-2.png)
+
+### Tasks - Completed Tasks
+![StudyHub Completed Tasks](screenshots/tasks-3.png)
+
+### Notes - Note Creation
+![StudyHub Notes](screenshots/notes-1.png)
+
+### Notes - Saved Notes
+![StudyHub Saved Notes](screenshots/notes-2.png)
+
+### Resources - Search Results
+![StudyHub Resources](screenshots/resources-1.png)
+
+### Resources - More Results
+![StudyHub Resources](screenshots/resources-2.png)
+
+### React Router Demo
+![React Router Demo](screenshots/router-demo.png)
+
+## Demo Video
+
+[Watch the StudyHub Demo on YouTube](https://www.youtube.com/watch?v=EgLFMgyyVbEthese)
